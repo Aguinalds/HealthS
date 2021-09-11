@@ -9,14 +9,14 @@ using HealthStar;
 namespace Services {
     
     public static class TokenService {
-        public static string GerarToken (Usuario usuario){
+        public static string GerarToken (Login login){
             var tokenHandler = new JwtSecurityTokenHandler();
             var appKey = Encoding.ASCII.GetBytes(AppKey.Key);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]{
-                    new Claim(ClaimTypes.Name, usuario.Login.ToString()),
-                    new Claim(ClaimTypes.Role, usuario.Perfil.ToString())
+                    new Claim(ClaimTypes.Name, login.User.ToString()),
+                    new Claim(ClaimTypes.Role, login.Cargo.ToString())
                 }),
                 Expires = DateTime.UtcNow.AddHours(2),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(appKey),
