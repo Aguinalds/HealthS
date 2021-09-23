@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pyBOPiXjUEGxqwIAoBIEB2X40RcUNuXkxcv73t3GkVWRgLu6jl+wS3wSqta07MXzSdQfl1c9f54b9p5olE37CQ==",
+  "dgSpecHash": "Aue+I8n7G9NnZODBoC5yu8DsOs5lhyXPErET7JdgR6tM1oOK50xGHgkoXSwbaZR7PkccZNjCYQdkznqzlGVeVA==",
   "success": true,
-  "projectFilePath": "C:\\Faculdade\\Faculdade\\FACULDADE2ano\\2Bimestre\\Csharp\\HealthS\\Health.csproj",
+  "projectFilePath": "C:\\Faculdade\\FACULDADE2ano\\2Bimestre\\Csharp\\HealthS\\Health.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pichau\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
