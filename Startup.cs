@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Health
 {
@@ -32,7 +34,14 @@ namespace Health
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Health", Version = "v1" });
             });
+
+            services.AddDbContext< ExemploContext>();
+
+            services.AddDbContext<Banco>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("Banco")));
+
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

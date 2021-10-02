@@ -11,3 +11,5 @@ namespace models
         public string Cargo { get; set; }
     }
 }
+
+//dotnet-aspnet-codegenerator controller -name LoginController -m Login -dc Banco -api --relativeFolderPath Controllers

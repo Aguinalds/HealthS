@@ -9,11 +9,12 @@ using models;
 namespace Health.controllers
 {
     [ApiController]
-    [Route("api/Status")]
+    [Route("api/Rotina")]
     public class HealthController : ControllerBase
     {
         private static readonly string[]
-            Rotina = new [] { "Cancelado ", "Em andamento ", "Aprovado" };
+            Rotina =
+                new [] { "Cancelado ", "Em andamento ", "Aprovado ", "", "" };
 
         //GET
         [HttpGet]
@@ -23,25 +24,31 @@ namespace Health.controllers
         }
 
         [HttpGet("id")]
-        public string GetStatus(int id)
+        public string GetRotina(int id)
         {
             return Rotina[id];
         }
+
         //POST
         [HttpPost]
-        public string Incluir(Rotina rotina){
+        public string Incluir(Rotina rotina)
+        {
             Rotina[rotina.Id] = rotina.Nome;
             return string.Join("", Rotina);
         }
+
         //PUT
         [HttpPut("{id}")]
-        public string Atualizar(int id, Rotina rotina){
+        public string Atualizar(int id, Rotina rotina)
+        {
             Rotina[id] = rotina.Nome;
             return string.Join("", Rotina);
         }
+
         //DELETE
         [HttpDelete("{id}")]
-        public string Excluir(int id) {
+        public string Excluir(int id)
+        {
             Rotina[id] = "";
             return string.Join("", Rotina);
         }
