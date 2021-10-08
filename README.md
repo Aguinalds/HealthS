@@ -14,3 +14,11 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet tool install -g dotnet-aspnet-codegenerator
 
 dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+
+BANCO DE DADOS
+
+dotnet tool install --global dotnet-ef
+
+dotnet ef migrations add Initial
+
+dotnet ef database update
