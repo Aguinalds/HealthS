@@ -35,10 +35,7 @@ namespace Health
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Health", Version = "v1" });
             });
 
-            services.AddDbContext< ExemploContext>();
-
-            services.AddDbContext<Banco>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("Banco")));
+            services.AddDbContext<ExemploContext>();
 
         }
 

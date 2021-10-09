@@ -10,7 +10,7 @@ namespace Health.controllers
 {
     [ApiController]
     [Route("api/Rotina")]
-    public class HealthController : ControllerBase
+    public class RotinaController : ControllerBase
     {
         private static readonly string[]
             Rotina =

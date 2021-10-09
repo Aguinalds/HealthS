@@ -11,47 +11,47 @@ namespace Health.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class LoginController : ControllerBase
+    public class PacienteController : ControllerBase
     {
         private readonly ExemploContext _context;
 
-        public LoginController(ExemploContext context)
+        public PacienteController(ExemploContext context)
         {
             _context = context;
         }
 
-        // GET: api/Login
+        // GET: api/Paciente
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Login>>> GetLogin()
+        public async Task<ActionResult<IEnumerable<Paciente>>> GetPacientes()
         {
-            return await _context.Login.ToListAsync();
+            return await _context.Pacientes.ToListAsync();
         }
 
-        // GET: api/Login/5
+        // GET: api/Paciente/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Login>> GetLogin(int id)
+        public async Task<ActionResult<Paciente>> GetPaciente(int id)
         {
-            var login = await _context.Login.FindAsync(id);
+            var paciente = await _context.Pacientes.FindAsync(id);
 
-            if (login == null)
+            if (paciente == null)
             {
                 return NotFound();
             }
 
-            return login;
+            return paciente;
         }
 
-        // PUT: api/Login/5
+        // PUT: api/Paciente/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutLogin(int id, Login login)
+        public async Task<IActionResult> PutPaciente(int id, Paciente paciente)
         {
-            if (id != login.Id)
+            if (id != paciente.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(login).State = EntityState.Modified;
+            _context.Entry(paciente).State = EntityState.Modified;
 
             try
             {
@@ -59,7 +59,7 @@ namespace Health.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!LoginExists(id))
+                if (!PacienteExists(id))
                 {
                     return NotFound();
                 }
@@ -72,36 +72,36 @@ namespace Health.Controllers
             return NoContent();
         }
 
-        // POST: api/Login
+        // POST: api/Paciente
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Login>> PostLogin(Login login)
+        public async Task<ActionResult<Paciente>> PostPaciente(Paciente paciente)
         {
-            _context.Login.Add(login);
+            _context.Pacientes.Add(paciente);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetLogin", new { id = login.Id }, login);
+            return CreatedAtAction("GetPaciente", new { id = paciente.Id }, paciente);
         }
 
-        // DELETE: api/Login/5
+        // DELETE: api/Paciente/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteLogin(int id)
+        public async Task<IActionResult> DeletePaciente(int id)
         {
-            var login = await _context.Login.FindAsync(id);
-            if (login == null)
+            var paciente = await _context.Pacientes.FindAsync(id);
+            if (paciente == null)
             {
                 return NotFound();
             }
 
-            _context.Login.Remove(login);
+            _context.Pacientes.Remove(paciente);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool LoginExists(int id)
+        private bool PacienteExists(int id)
         {
-            return _context.Login.Any(e => e.Id == id);
+            return _context.Pacientes.Any(e => e.Id == id);
         }
     }
 }
