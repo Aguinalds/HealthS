@@ -36,6 +36,7 @@ dotnet watch run
 
 
 *ANGULAR*
+
 npm install -g @angular/cli
 
 ng new my-first-project
