@@ -18,10 +18,6 @@ dotnet tool install -g dotnet-aspnet-codegenerator
 
 dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
 
-- *CRIAR CONTROLLERS*
-
-dotnet-aspnet-codegenerator controller -name LoginController -m Login -dc Banco -api --relativeFolderPath Controllers
-
 - *BANCO DE DADOS*
 
 dotnet tool install --global dotnet-ef
@@ -38,8 +34,12 @@ dotnet watch run
 
 npm install -g @angular/cli
 
-ng new my-first-project
+ng new my-first-project  //Criar novo projeto (nao obrigatorio)
 
-cd my-first-project
+cd my-first-project //Cd no projeto (nao obrigatorio)
 
 ng serve --open
+
+- *CRIAR CONTROLLERS* (nao obrigatorio para setup)
+
+dotnet-aspnet-codegenerator controller -name LoginController -m Login -dc Banco -api --relativeFolderPath Controllers
