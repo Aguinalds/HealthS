@@ -33,3 +33,13 @@ dotnet ef database update
 *EXECUTAR O PROJETO*
 
 dotnet watch run
+
+
+*ANGULAR*
+npm install -g @angular/cli
+
+ng new my-first-project
+
+cd my-first-project
+
+ng serve --open
