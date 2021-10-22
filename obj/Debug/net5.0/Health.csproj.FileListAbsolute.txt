@@ -115,7 +115,6 @@ C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\obj\Debug\net5.0\staticwebas
 C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\obj\Debug\net5.0\staticwebassets\Health.StaticWebAssets.xml
 C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\obj\Debug\net5.0\scopedcss\bundle\Health.styles.css
 C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\obj\Debug\net5.0\Health.RazorTargetAssemblyInfo.cache
-C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\obj\Debug\net5.0\Health.csproj.CopyComplete
 C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\obj\Debug\net5.0\Health.dll
 C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\obj\Debug\net5.0\ref\Health.dll
 C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\obj\Debug\net5.0\Health.pdb
@@ -196,3 +195,9 @@ C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\zh-Hant\Mic
 C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\HealthStar\angular.json
+C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\HealthStar\package-lock.json
+C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\HealthStar\package.json
+C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\HealthStar\tsconfig.app.json
+C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\HealthStar\tsconfig.json
+C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\HealthStar\tsconfig.spec.json
