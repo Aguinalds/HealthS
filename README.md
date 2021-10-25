@@ -40,6 +40,10 @@ cd my-first-project //Cd no projeto (nao obrigatorio)
 
 ng serve --open
 
+- *CRIAR PAGE ANGULAR*
+
+ng g c Name
+
 - *CRIAR CONTROLLERS* (nao obrigatorio para setup)
 
 dotnet-aspnet-codegenerator controller -name LoginController -m Login -dc Banco -api --relativeFolderPath Controllers
