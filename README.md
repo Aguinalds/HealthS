@@ -42,7 +42,7 @@ ng serve --open
 
 - *CRIAR PAGE ANGULAR*
 
-ng g c Name
+ng g c <nome>
 
 - *CRIAR CONTROLLERS* (nao obrigatorio para setup)
 

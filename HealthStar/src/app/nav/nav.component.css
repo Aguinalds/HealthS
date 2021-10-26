@@ -1,0 +1,19 @@
+#navbar{ 
+    background-color: #1B1A1A;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+}
+#logo{
+    width: 308px;
+}
+.navigation{
+    list-style: none;
+}
+.menu-item > a{ 
+    color: #CAC6C6;
+    text-decoration: none;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
