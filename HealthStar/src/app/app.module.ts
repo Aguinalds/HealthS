@@ -3,26 +3,30 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { HomeComponent } from './home/home.component';
-import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
 import { AdminComponent } from './admin/admin.component';
-import { SobreComponent } from './sobre/sobre.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ConsultasComponent } from './consultas/consultas.component';
+import { MedicosComponent } from './medicos/medicos.component';
+import { RemediosComponent } from './remedios/remedios.component';
+import { CalendarioComponent } from './calendario/calendario.component';
+import { ConfiguracoesComponent } from './configuracoes/configuracoes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    HomeComponent,
-    FooterComponent,
     NavComponent,
     AdminComponent,
-    SobreComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    DashboardComponent,
+    ConsultasComponent,
+    MedicosComponent,
+    RemediosComponent,
+    CalendarioComponent,
+    ConfiguracoesComponent
   ],
   imports: [
     BrowserModule,
