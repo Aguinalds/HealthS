@@ -33,6 +33,7 @@ namespace Health
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Health", Version = "v1" });
+                
             });
 
             services.AddDbContext<ExemploContext>();

@@ -18,10 +18,10 @@ namespace Services
                 new SecurityTokenDescriptor {
                     Subject =
                         new ClaimsIdentity(new Claim[] {
+                                new Claim(ClaimTypes.Sid,
+                                    login.Id.ToString()),
                                 new Claim(ClaimTypes.Name,
-                                    login.User.ToString()),
-                                new Claim(ClaimTypes.Role,
-                                    login.Cargo.ToString())
+                                    login.User.ToString())
                             }),
                     Expires = DateTime.UtcNow.AddHours(2),
                     SigningCredentials =

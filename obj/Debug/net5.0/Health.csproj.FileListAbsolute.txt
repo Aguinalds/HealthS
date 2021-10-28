@@ -195,12 +195,6 @@ C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\zh-Hant\Mic
 C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\BCrypt.Net-Next.dll
-C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\HealthStar\angular.json
-C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\HealthStar\package-lock.json
-C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\HealthStar\package.json
-C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\HealthStar\tsconfig.app.json
-C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\HealthStar\tsconfig.json
-C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\HealthStar\tsconfig.spec.json
 E:\Faculdade\HealthS\bin\Debug\net5.0\appsettings.Development.json
 E:\Faculdade\HealthS\bin\Debug\net5.0\appsettings.json
 E:\Faculdade\HealthS\bin\Debug\net5.0\HealthStar\angular.json
@@ -344,3 +338,10 @@ E:\Faculdade\HealthS\obj\Debug\net5.0\Health.dll
 E:\Faculdade\HealthS\obj\Debug\net5.0\ref\Health.dll
 E:\Faculdade\HealthS\obj\Debug\net5.0\Health.pdb
 E:\Faculdade\HealthS\obj\Debug\net5.0\Health.genruntimeconfig.cache
+C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\angular.json
+C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\package-lock.json
+C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\package.json
+C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\tsconfig.app.json
+C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\tsconfig.json
+C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\tsconfig.spec.json
+C:\Faculdade\FACULDADE2ano\2Bimestre\Csharp\HealthS\bin\Debug\net5.0\swagger\swagger.json
