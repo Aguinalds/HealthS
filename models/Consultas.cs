@@ -14,12 +14,5 @@ namespace models
         public DateTime Data { get; set; }
 
         public Paciente Paciente { get; set; }
-
-        public Consulta()
-        {
-            Consultas = new List<Consulta>();
-        }
-
-        public List<Consulta> Consultas { get; set; }
     }
 }
